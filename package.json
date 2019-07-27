@@ -1,0 +1,16 @@
+{
+  "name": "modernjs",
+  "version": "1.0.0",
+  "description": "My First NPM Package",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Jhon Smith",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  }
+}
